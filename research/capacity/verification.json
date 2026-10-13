@@ -1,0 +1,32 @@
+{
+  "research_date_local": "2026-10-13",
+  "timezone": "America/Los_Angeles",
+  "python": "3.13.7",
+  "terms": 10000,
+  "offset": 1,
+  "direct_and_independent_enumeration_agree": true,
+  "standalone_submission_program_matches_all_terms": true,
+  "unit_tests_passed": 19,
+  "capacity_unit_tests": 7,
+  "b_file_ascii_lf_consecutive_indices_verified": true,
+  "last_term": [
+    10000,
+    2800
+  ],
+  "sha256": {
+    "capacity_sequence.py": "6b63eb160164ebe85795ea9d7d3c4a310c37cc75f29bca41b9bfd910f4a649ac",
+    "capacity\\oeis_program.py": "0dcc6d71382b0f1b44d3a6bc57a6ed54f0afb3449764a13c681161c68b948989",
+    "capacity\\b401021.txt": "90fe4e706a26aaf9bf85255781fa9db6693a74bf93c5984b373a6633759765cb"
+  },
+  "duplicate_search": {
+    "date": "2026-10-13",
+    "queries": [
+      "6,10,14,16,22,22,24,24,30,32,32,32",
+      "3,5,7,8,11,11,12,12,15,16,16,16"
+    ],
+    "http_status": 200,
+    "response": null
+  },
+  "submitted": true,
+  "oeis_draft_number": "A401021"
+}

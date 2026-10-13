@@ -1,0 +1,59 @@
+{
+  "started_utc": "2026-10-09T03:19:42.144668+00:00",
+  "python": "3.13.7",
+  "source_sha256": {
+    "a075777.py": "15875ad304e4c4ffd6a9192ef2ce52e4fef1e4c4f8780cdf1e8c6a01e40ea342",
+    "run_research.py": "74f068a336c8df79020c26691427e08368c5668960bb75922ff8f7a63f62ec30"
+  },
+  "coverage": "All tied pairs with both second-smallest sides <= bound and n <= max_volume; not all n up to max_volume.",
+  "baseline": {
+    "validated_through": 10000,
+    "oeis_sha256": "dd3479a2968102c11d14a98a4512723490e240ccecf161e7bbf7755dfbe1a36a",
+    "reference_and_optimized_agree": true,
+    "nonunique_volumes": [],
+    "greedy_failure_count": 2424,
+    "first_greedy_failures": [
+      68,
+      76,
+      92,
+      108,
+      116,
+      124,
+      148,
+      164,
+      172,
+      188,
+      212,
+      222,
+      228,
+      236,
+      244,
+      246,
+      258,
+      268,
+      276,
+      282
+    ],
+    "worst_greedy_ratio": {
+      "n": 9980,
+      "numerator": 20998,
+      "denominator": 9022
+    }
+  },
+  "search": {
+    "smaller_side_bound": 100,
+    "max_volume": 1000000000000,
+    "base_pairs": 5050,
+    "tied_pairs": 6056,
+    "distinct_volumes": 4351,
+    "largest_volume_found": 6007574720,
+    "pairs_above_100_million": 176,
+    "both_prime_transfer_stable": 21,
+    "both_pairwise_stable": 0,
+    "optimal_ties": [],
+    "pairwise_stable_examples": [],
+    "certificates_sha256": "f33afe5767a77a7f563f55105d8c33c749753fe29efbf8798d81764b26db7e17"
+  },
+  "independent_certificate_rejections": 6056,
+  "elapsed_seconds": 3.614
+}

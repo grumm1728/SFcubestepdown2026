@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-09T03:20:48.812373+00:00",
+  "python": "3.13.7",
+  "source_sha256": {
+    "a075777.py": "15875ad304e4c4ffd6a9192ef2ce52e4fef1e4c4f8780cdf1e8c6a01e40ea342",
+    "run_research.py": "74f068a336c8df79020c26691427e08368c5668960bb75922ff8f7a63f62ec30"
+  },
+  "coverage": "All tied pairs with both second-smallest sides <= bound and n <= max_volume; not all n up to max_volume.",
+  "search": {
+    "smaller_side_bound": 200,
+    "max_volume": 1000000000000,
+    "base_pairs": 20100,
+    "tied_pairs": 32640,
+    "distinct_volumes": 22039,
+    "largest_volume_found": 562862113400,
+    "pairs_above_100_million": 5430,
+    "both_prime_transfer_stable": 123,
+    "both_pairwise_stable": 0,
+    "optimal_ties": [],
+    "pairwise_stable_examples": [],
+    "certificates_sha256": "05074b1571a9d31aac34f77ada0f398ee7b6ea03106fd1c78c8a6ec10f101c45"
+  },
+  "independent_certificate_rejections": 32640,
+  "elapsed_seconds": 47.804
+}
